@@ -1,0 +1,21 @@
+[2.975s] Invoking command in '/home/rpi/Downloads/py_send_camera_ws/src/py_send_camera': PYTHONPATH=/home/rpi/Downloads/py_send_camera_ws/build/py_send_camera/prefix_override:/home/rpi/Downloads/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_send_camera build --build-base /home/rpi/Downloads/py_send_camera_ws/build/py_send_camera/build install --record /home/rpi/Downloads/py_send_camera_ws/build/py_send_camera/install.log --single-version-externally-managed install_data
+[4.122s] running egg_info
+[4.124s] writing ../../build/py_send_camera/py_send_camera.egg-info/PKG-INFO
+[4.129s] writing dependency_links to ../../build/py_send_camera/py_send_camera.egg-info/dependency_links.txt
+[4.130s] writing entry points to ../../build/py_send_camera/py_send_camera.egg-info/entry_points.txt
+[4.130s] writing requirements to ../../build/py_send_camera/py_send_camera.egg-info/requires.txt
+[4.131s] writing top-level names to ../../build/py_send_camera/py_send_camera.egg-info/top_level.txt
+[4.141s] reading manifest file '../../build/py_send_camera/py_send_camera.egg-info/SOURCES.txt'
+[4.146s] writing manifest file '../../build/py_send_camera/py_send_camera.egg-info/SOURCES.txt'
+[4.147s] running build
+[4.147s] running build_py
+[4.150s] running install
+[4.151s] running install_lib
+[4.160s] running install_data
+[4.162s] running install_egg_info
+[4.170s] removing '/home/rpi/Downloads/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera-0.0.0-py3.10.egg-info' (and everything under it)
+[4.172s] Copying ../../build/py_send_camera/py_send_camera.egg-info to /home/rpi/Downloads/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera-0.0.0-py3.10.egg-info
+[4.179s] running install_scripts
+[4.262s] Installing send_camera script to /home/rpi/Downloads/py_send_camera_ws/install/py_send_camera/lib/py_send_camera
+[4.264s] writing list of installed files to '/home/rpi/Downloads/py_send_camera_ws/build/py_send_camera/install.log'
+[4.389s] Invoked command in '/home/rpi/Downloads/py_send_camera_ws/src/py_send_camera' returned '0': PYTHONPATH=/home/rpi/Downloads/py_send_camera_ws/build/py_send_camera/prefix_override:/home/rpi/Downloads/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_send_camera build --build-base /home/rpi/Downloads/py_send_camera_ws/build/py_send_camera/build install --record /home/rpi/Downloads/py_send_camera_ws/build/py_send_camera/install.log --single-version-externally-managed install_data

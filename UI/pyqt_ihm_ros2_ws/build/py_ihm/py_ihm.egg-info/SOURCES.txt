@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_ihm/py_ihm.egg-info/PKG-INFO
+../../build/py_ihm/py_ihm.egg-info/SOURCES.txt
+../../build/py_ihm/py_ihm.egg-info/dependency_links.txt
+../../build/py_ihm/py_ihm.egg-info/entry_points.txt
+../../build/py_ihm/py_ihm.egg-info/requires.txt
+../../build/py_ihm/py_ihm.egg-info/top_level.txt
+../../build/py_ihm/py_ihm.egg-info/zip-safe
+py_ihm/__init__.py
+py_ihm/py_ihm.py
+resource/py_ihm
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

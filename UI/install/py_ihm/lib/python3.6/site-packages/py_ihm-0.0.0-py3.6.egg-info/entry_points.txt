@@ -1,0 +1,3 @@
+[console_scripts]
+ihm_ros2 = py_ihm.py_ihm:main
+

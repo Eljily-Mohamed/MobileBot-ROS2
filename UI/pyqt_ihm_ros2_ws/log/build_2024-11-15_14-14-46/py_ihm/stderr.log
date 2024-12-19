@@ -1,0 +1,5 @@
+  File "/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.6/site-packages/py_ihm/py_ihm.py", line 8
+    from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QComboBox, QHBoxLayout, QGridLayout, QGraphicsScene, QGraphicsViewimport rclpy
+                                                                                                                                                                                              ^
+SyntaxError: invalid syntax
+

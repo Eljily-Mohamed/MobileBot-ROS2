@@ -1,0 +1,4 @@
+../Core/Src/drv_uart.c:19:1:__io_putchar	16	static
+../Core/Src/drv_uart.c:26:6:MX_USART1_UART_Init	8	static
+../Core/Src/drv_uart.c:43:6:MX_USART2_UART_Init	8	static
+../Core/Src/drv_uart.c:62:6:MX_DMA_Init	16	static

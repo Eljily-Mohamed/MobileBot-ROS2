@@ -1,0 +1,39 @@
+[0.793s] Invoking command in '/home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/src/py_send_camera': PYTHONPATH=/home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/prefix_override:/home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_send_camera build --build-base /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build install --record /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/install.log --single-version-externally-managed
+[0.997s] running egg_info
+[0.997s] creating ../../build/py_send_camera/py_send_camera.egg-info
+[0.997s] writing ../../build/py_send_camera/py_send_camera.egg-info/PKG-INFO
+[0.997s] writing dependency_links to ../../build/py_send_camera/py_send_camera.egg-info/dependency_links.txt
+[0.997s] writing entry points to ../../build/py_send_camera/py_send_camera.egg-info/entry_points.txt
+[0.998s] writing requirements to ../../build/py_send_camera/py_send_camera.egg-info/requires.txt
+[0.998s] writing top-level names to ../../build/py_send_camera/py_send_camera.egg-info/top_level.txt
+[1.006s] writing manifest file '../../build/py_send_camera/py_send_camera.egg-info/SOURCES.txt'
+[1.008s] reading manifest file '../../build/py_send_camera/py_send_camera.egg-info/SOURCES.txt'
+[1.008s] writing manifest file '../../build/py_send_camera/py_send_camera.egg-info/SOURCES.txt'
+[1.008s] running build
+[1.009s] running build_py
+[1.009s] creating /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build
+[1.009s] creating /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build/lib
+[1.009s] creating /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build/lib/py_send_camera
+[1.009s] copying py_send_camera/__init__.py -> /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build/lib/py_send_camera
+[1.009s] copying py_send_camera/send_camera.py -> /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build/lib/py_send_camera
+[1.009s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.009s]   warnings.warn(
+[1.009s] running install
+[1.009s] running install_lib
+[1.010s] creating /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera
+[1.010s] copying /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build/lib/py_send_camera/__init__.py -> /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera
+[1.010s] copying /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build/lib/py_send_camera/send_camera.py -> /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera
+[1.010s] byte-compiling /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera/__init__.py to __init__.cpython-310.pyc
+[1.010s] byte-compiling /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera/send_camera.py to send_camera.cpython-310.pyc
+[1.011s] running install_data
+[1.011s] creating /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/share/ament_index
+[1.011s] creating /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/share/ament_index/resource_index
+[1.011s] creating /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/share/ament_index/resource_index/packages
+[1.011s] copying resource/py_send_camera -> /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/share/ament_index/resource_index/packages
+[1.012s] copying package.xml -> /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/share/py_send_camera
+[1.012s] running install_egg_info
+[1.013s] Copying ../../build/py_send_camera/py_send_camera.egg-info to /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera-0.0.0-py3.10.egg-info
+[1.013s] running install_scripts
+[1.027s] Installing send_camera script to /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/py_send_camera
+[1.028s] writing list of installed files to '/home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/install.log'
+[1.046s] Invoked command in '/home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/src/py_send_camera' returned '0': PYTHONPATH=/home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/prefix_override:/home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_send_camera build --build-base /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/build install --record /home/kerhoas/WORKSPACE_WEB2/ROBOT_ROS_/py_send_camera_ws/build/py_send_camera/install.log --single-version-externally-managed

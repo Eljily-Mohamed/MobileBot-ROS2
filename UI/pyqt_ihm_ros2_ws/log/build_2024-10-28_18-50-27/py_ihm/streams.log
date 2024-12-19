@@ -1,0 +1,24 @@
+[0.874s] Invoking command in '/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm': PYTHONPATH=/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_ihm build --build-base /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/build install --record /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/install.log --single-version-externally-managed install_data
+[1.193s] running egg_info
+[1.194s] writing ../../build/py_ihm/py_ihm.egg-info/PKG-INFO
+[1.194s] writing dependency_links to ../../build/py_ihm/py_ihm.egg-info/dependency_links.txt
+[1.194s] writing entry points to ../../build/py_ihm/py_ihm.egg-info/entry_points.txt
+[1.195s] writing requirements to ../../build/py_ihm/py_ihm.egg-info/requires.txt
+[1.195s] writing top-level names to ../../build/py_ihm/py_ihm.egg-info/top_level.txt
+[1.198s] reading manifest file '../../build/py_ihm/py_ihm.egg-info/SOURCES.txt'
+[1.200s] writing manifest file '../../build/py_ihm/py_ihm.egg-info/SOURCES.txt'
+[1.200s] running build
+[1.200s] running build_py
+[1.201s] copying py_ihm/py_ihm.py -> /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/build/lib/py_ihm
+[1.201s] running install
+[1.201s] running install_lib
+[1.205s] copying /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/build/lib/py_ihm/py_ihm.py -> /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.10/site-packages/py_ihm
+[1.205s] byte-compiling /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.10/site-packages/py_ihm/py_ihm.py to py_ihm.cpython-310.pyc
+[1.207s] running install_data
+[1.207s] running install_egg_info
+[1.211s] removing '/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.10/site-packages/py_ihm-0.0.0-py3.10.egg-info' (and everything under it)
+[1.213s] Copying ../../build/py_ihm/py_ihm.egg-info to /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.10/site-packages/py_ihm-0.0.0-py3.10.egg-info
+[1.214s] running install_scripts
+[1.245s] Installing ihm_ros2 script to /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/py_ihm
+[1.246s] writing list of installed files to '/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/install.log'
+[1.280s] Invoked command in '/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm' returned '0': PYTHONPATH=/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_ihm build --build-base /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/build install --record /home/mohamed/enib/projets/robot-mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/install.log --single-version-externally-managed install_data

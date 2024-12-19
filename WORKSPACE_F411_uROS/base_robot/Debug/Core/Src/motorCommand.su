@@ -1,0 +1,3 @@
+../Core/Src/motorCommand.c:16:6:motorCommand_Init	16	static
+../Core/Src/motorCommand.c:55:6:motorLeft_SetDuty	16	static
+../Core/Src/motorCommand.c:62:6:motorRight_SetDuty	16	static

@@ -1,0 +1,81 @@
+11:27:54 **** Incremental Build of configuration Debug for project base_robot ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I"/home/e2023/m3eljily/Bureau/robot_mobile/WORKSPACE_F411_uROS/base_robot/micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include" -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'task_MG':
+../Core/Src/main.c:101:9: warning: unused variable 'tmp' [-Wunused-variable]
+  101 |     int tmp = 0;
+      |         ^~~
+../Core/Src/main.c:100:9: warning: unused variable 'start' [-Wunused-variable]
+  100 |     int start = 0;
+      |         ^~~~~
+../Core/Src/main.c: In function 'task_MD':
+../Core/Src/main.c:140:9: warning: unused variable 'tmp' [-Wunused-variable]
+  140 |     int tmp = 0;
+      |         ^~~
+../Core/Src/main.c:139:9: warning: unused variable 'start' [-Wunused-variable]
+  139 |     int start = 0;
+      |         ^~~~~
+../Core/Src/main.c: In function 'task_LCD':
+../Core/Src/main.c:307:18: warning: unused variable 'pxRxedMessage' [-Wunused-variable]
+  307 |  struct AMessage pxRxedMessage;
+      |                  ^~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:471:33: warning: pointer targets in passing argument 2 of 'xTaskCreate' differ in signedness [-Wpointer-sign]
+  471 |  xTaskCreate( task_Superviseur, ( signed portCHAR * ) "task_Superviseur", 128 /* stack size */, NULL, 28, NULL );
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 signed char *
+In file included from ../Core/Inc/main.h:81,
+                 from ../Core/Src/main.c:1:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:331:27: note: expected 'const char * const' but argument is of type 'signed char *'
+  331 |        const char * const pcName, /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+      |        ~~~~~~~~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:388:7: warning: unused variable 'tab_dist' [-Wunused-variable]
+  388 |   int tab_dist[2];
+      |       ^~~~~~~~
+../Core/Src/main.c: In function 'subscription_callback3':
+../Core/Src/main.c:529:3: warning: implicit declaration of function 'get_xy' [-Wimplicit-function-declaration]
+  529 |   get_xy(msg->data.data, values_xy);
+      |   ^~~~~~
+../Core/Src/main.c: In function 'microros_task':
+../Core/Src/main.c:613:51: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long int' [-Wformat=]
+  613 |    sprintf(sensor_speed__msg.data.data, "speedL=#%d , speedR=#%d", (int32_t)speed_L,(int32_t)speed_R);
+      |                                                  ~^                ~~~~~~~~~~~~~~~~
+      |                                                   |                |
+      |                                                   int              long int
+      |                                                  %ld
+../Core/Src/main.c:613:64: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long int' [-Wformat=]
+  613 |    sprintf(sensor_speed__msg.data.data, "speedL=#%d , speedR=#%d", (int32_t)speed_L,(int32_t)speed_R);
+      |                                                               ~^                    ~~~~~~~~~~~~~~~~
+      |                                                                |                    |
+      |                                                                int                  long int
+      |                                                               %ld
+../Core/Src/main.c:616:41: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long int' [-Wformat=]
+  616 |    sprintf(sensor_obs_msg.data.data, "#%d", (int32_t)obstacle_detected);
+      |                                        ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |   |
+      |                                         int long int
+      |                                        %ld
+../Core/Src/main.c:555:22: warning: unused variable 'node_ops' [-Wunused-variable]
+  555 |   rcl_node_options_t node_ops = rcl_node_get_default_options();
+      |                      ^~~~~~~~
+../Core/Src/main.c:557:3: warning: ignoring return value of 'rcl_init_options_init' declared with attribute 'warn_unused_result' [-Wunused-result]
+  557 |   rcl_init_options_init(&init_options, allocator);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:558:3: warning: ignoring return value of 'rcl_init_options_set_domain_id' declared with attribute 'warn_unused_result' [-Wunused-result]
+  558 |   rcl_init_options_set_domain_id(&init_options, ROS_DOMAIN_ID);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "base_robot.elf" @"objects.list"  -lmicroros -mcpu=cortex-m4 -T"/home/e2023/m3eljily/Bureau/robot_mobile/WORKSPACE_F411_uROS/base_robot/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="base_robot.map" -Wl,--gc-sections -static -L"/home/e2023/m3eljily/Bureau/robot_mobile/WORKSPACE_F411_uROS/base_robot/micro_ros_stm32cubemx_utils/microros_static_library/libmicroros" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: base_robot.elf
+ 
+arm-none-eabi-size   base_robot.elf 
+arm-none-eabi-objdump -h -S  base_robot.elf  > "base_robot.list"
+   text	   data	    bss	    dec	    hex	filename
+ 129788	    612	  60568	 190968	  2e9f8	base_robot.elf
+Finished building: default.size.stdout
+ 
+Finished building: base_robot.list
+ 
+
+11:27:59 Build Finished. 0 errors, 14 warnings. (took 4s.897ms)
+

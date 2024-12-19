@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000391] (py_ihm) JobQueued: {'identifier': 'py_ihm', 'dependencies': OrderedDict()}
+[0.001015] (py_ihm) JobStarted: {'identifier': 'py_ihm'}
+[0.098152] (-) TimerEvent: {}
+[0.199022] (-) TimerEvent: {}
+[0.299860] (-) TimerEvent: {}
+[0.400737] (-) TimerEvent: {}
+[0.501287] (-) TimerEvent: {}
+[0.507901] (py_ihm) JobEnded: {'identifier': 'py_ihm', 'rc': 0}
+[0.512053] (-) EventReactorShutdown: {}

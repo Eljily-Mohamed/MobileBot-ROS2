@@ -1,0 +1,5 @@
+  File "/home/rpi/Downloads/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera/send_camera.py", line 107
+    break
+    ^^^^^
+SyntaxError: 'break' outside loop
+

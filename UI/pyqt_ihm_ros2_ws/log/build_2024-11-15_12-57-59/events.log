@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000901] (py_ihm) JobQueued: {'identifier': 'py_ihm', 'dependencies': OrderedDict()}
+[0.001860] (py_ihm) JobStarted: {'identifier': 'py_ihm'}
+[0.097981] (-) TimerEvent: {}
+[0.198595] (-) TimerEvent: {}
+[0.300944] (-) TimerEvent: {}
+[0.402333] (-) TimerEvent: {}
+[0.503249] (-) TimerEvent: {}
+[0.603858] (-) TimerEvent: {}
+[0.704441] (-) TimerEvent: {}
+[0.805062] (-) TimerEvent: {}
+[0.905682] (-) TimerEvent: {}
+[1.006239] (-) TimerEvent: {}
+[1.106823] (-) TimerEvent: {}
+[1.207354] (-) TimerEvent: {}
+[1.307908] (-) TimerEvent: {}
+[1.408481] (-) TimerEvent: {}
+[1.509110] (-) TimerEvent: {}
+[1.609710] (-) TimerEvent: {}
+[1.710571] (-) TimerEvent: {}
+[1.812078] (-) TimerEvent: {}
+[1.912874] (-) TimerEvent: {}
+[2.013798] (-) TimerEvent: {}
+[2.114393] (-) TimerEvent: {}
+[2.214966] (-) TimerEvent: {}
+[2.315587] (-) TimerEvent: {}
+[2.416179] (-) TimerEvent: {}
+[2.516724] (-) TimerEvent: {}
+[2.617384] (-) TimerEvent: {}
+[2.717952] (-) TimerEvent: {}
+[2.818489] (-) TimerEvent: {}
+[2.919072] (-) TimerEvent: {}
+[3.019678] (-) TimerEvent: {}
+[3.120245] (-) TimerEvent: {}
+[3.220762] (-) TimerEvent: {}
+[3.321321] (-) TimerEvent: {}
+[3.422247] (-) TimerEvent: {}
+[3.522908] (-) TimerEvent: {}
+[3.623538] (-) TimerEvent: {}
+[3.724089] (-) TimerEvent: {}
+[3.824651] (-) TimerEvent: {}
+[3.925308] (-) TimerEvent: {}
+[4.025966] (-) TimerEvent: {}
+[4.126712] (-) TimerEvent: {}
+[4.149722] (py_ihm) Command: {'cmd': ['/home/TP/tools/miniconda3/envs/E021_3_6/bin/python3.6', 'setup.py', 'egg_info', '--egg-base', '../../build/py_ihm', 'build', '--build-base', '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/build', 'install', '--record', '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/install.log', '--single-version-externally-managed'], 'cwd': '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm', 'env': {'CONDA_SHLVL': '1', 'X2C_Root': '/local/scilab-5.5.2/X2C', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib64:/opt/ros/humble/lib', 'LS_COLORS': 'rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'CONDA_EXE': '/home/TP/tools/miniconda3/bin/conda', 'XDG_MENU_PREFIX': 'xfce-', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'MODULES_RUN_QUARANTINE': 'LD_LIBRARY_PATH LD_PRELOAD', 'LANG': 'fr_FR.UTF-8', 'GDM_LANG': 'fr_FR.UTF-8', 'HISTCONTROL': 'ignoredups', 'CARGO_TARGET_DIR': '/tmp/cargo_target_m3eljily', 'DISPLAY': ':1.0', 'HOSTNAME': 'poulpe11', 'OLDPWD': '/home/e2023/m3eljily/Bureau/robot_mobile/UI', 'ENIB_SHARED': '/home/TP/tools/enib_shared', 'RUSTUP_HOME': '/local/rust/rustup', 'COLORTERM': 'truecolor', 'USERNAME': 'm3eljily', 'CONDA_PREFIX': '/home/TP/tools/miniconda3/envs/E021_3_6', 'KDEDIRS': '/usr', 'XDG_VTNR': '2', 'SSH_AUTH_SOCK': '/tmp/ssh-3a4m4QSkOiZ7/agent.4937', 'S_COLORS': 'auto', '_CE_M': '', 'which_declare': 'declare -f', 'XDG_SESSION_ID': '2', 'MODULES_CMD': '/usr/share/Modules/libexec/modulecmd.tcl', 'USER': 'm3eljily', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'DESKTOP_SESSION': 'EnibExam', 'CARGO_REGISTRIES_CRATES_IO_PROTOCOL': 'sparse', 'PWD': '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm', 'COLCON': '1', 'SSH_ASKPASS': '/usr/libexec/openssh/gnome-ssh-askpass', 'HOME': '/home/e2023/m3eljily', 'CONDA_PYTHON_EXE': '/home/TP/tools/miniconda3/bin/python', 'SSH_AGENT_PID': '4953', 'ROS_DOMAIN_ID': '4', 'XDG_SESSION_TYPE': 'x11', 'XDG_DATA_DIRS': '/home/e2023/m3eljily/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', '_CE_CONDA': '', 'XDG_SESSION_DESKTOP': 'EnibExam', 'LOADEDMODULES': '', 'CONDA_PROMPT_MODIFIER': '', 'ROS_VERSION': '2', 'MAIL': '/var/spool/mail/m3eljily', 'WINDOWPATH': '2', 'ROS_LOCALHOST_ONLY': '0', 'SHELL': '/bin/bash', 'VTE_VERSION': '5204', 'TERM': 'xterm-256color', 'ROS_PYTHON_VERSION': '3', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SEAT': 'seat0', 'SHLVL': '3', 'PYTHONPATH': '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/prefix_override:/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.6/site-packages:/opt/ros/humble/lib/python3.6/site-packages', 'MANPATH': ':', 'WINDOWID': '62914563', 'MODULEPATH': '/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles', 'GDK_BACKEND': 'x11', 'GDMSESSION': 'EnibExam', 'LOGNAME': 'm3eljily', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/23161/bus', 'XDG_RUNTIME_DIR': '/run/user/23161', 'XAUTHORITY': '/run/user/23161/gdm/Xauthority', 'MODULEPATH_modshare': '/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2', 'SDK_ELEC': '/local/sdk_elec_cos8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'PATH': '/home/TP/tools/miniconda3/envs/E021_3_6/bin:/home/TP/tools/miniconda3/condabin:/opt/ros/humble/bin:/home/TP/tools:/usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/local/rust/cargo/bin:/home/TP/tools/qemu/bin:/usr/local/cuda/bin:/home/TP/tools/can-utils/build:/local/scilab-5.5.2/bin:/local/QtCreator/bin:/local/sdk_elec_cos8/bin:/local/sdk_elec_cos8/gcc-arm-none-eabi-10-2020-q4-major/bin:/local/sdk_elec_cos8/eclipse:/local/Ac6:/local/st/stm32cubeide_1.9.0', 'DEBUGINFOD_URLS': 'https://debuginfod.centos.org/', 'MODULESHOME': '/usr/share/Modules', 'CONDA_DEFAULT_ENV': 'E021_3_6', 'HISTSIZE': '1000', 'SESSION_MANAGER': 'local/unix:@/tmp/.ICE-unix/4937,unix/unix:/tmp/.ICE-unix/4937', 'WINEPREFIX': '/usr/local/WINE_LTSPICE', 'ROS_DISTRO': 'humble', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s\nBASH_FUNC_which%%=() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}\nBASH_FUNC_module%%=() {  _module_raw "$@" 2>&1\n}\nBASH_FUNC__module_raw%%=() {  unset _mlshdbg;\n if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = \'1\' ]; then\n case "$-" in\n *v*x*)\n set +vx;\n _mlshdbg=\'vx\'\n ;;\n *v*)\n set +v;\n _mlshdbg=\'v\'\n ;;\n *x*)\n set +x;\n _mlshdbg=\'x\'\n ;;\n *)\n _mlshdbg=\'\'\n ;;\n esac;\n fi;\n unset _mlre _mlIFS;\n if [ -n "${IFS+x}" ]; then\n _mlIFS=$IFS;\n fi;\n IFS=\' \';\n for _mlv in ${MODULES_RUN_QUARANTINE:-};\n do\n if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then\n if [ -n "`eval \'echo ${\'$_mlv\'+x}\'`" ]; then\n _mlre="${_mlre:-}${_mlv}_modquar=\'`eval \'echo ${\'$_mlv\'}\'`\' ";\n fi;\n _mlrv="MODULES_RUNENV_${_mlv}";\n _mlre="${_mlre:-}${_mlv}=\'`eval \'echo ${\'$_mlrv\':-}\'`\' ";\n fi;\n done;\n if [ -n "${_mlre:-}" ]; then\n eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash \'"$@"\'`;\n else\n eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;\n fi;\n _mlstatus=$?;\n if [ -n "${_mlIFS+x}" ]; then\n IFS=$_mlIFS;\n else\n unset IFS;\n fi;\n unset _mlre _mlv _mlrv _mlIFS;\n if [ -n "${_mlshdbg:-}" ]; then\n set -$_mlshdbg;\n fi;\n unset _mlshdbg;\n return $_mlstatus\n}\nBASH_FUNC_switchml%%=() {  typeset swfound=1;\n if [ "${MODULES_USE_COMPAT_VERSION:-0}" = \'1\' ]; then\n typeset swname=\'main\';\n if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then\n typeset swfound=0;\n unset MODULES_USE_COMPAT_VERSION;\n fi;\n else\n typeset swname=\'compatibility\';\n if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then\n typeset swfound=0;\n MODULES_USE_COMPAT_VERSION=1;\n export MODULES_USE_COMPAT_VERSION;\n fi;\n fi;\n if [ $swfound -eq 0 ]; then\n echo "Switching to Modules $swname version";\n source /usr/share/Modules/init/bash;\n else\n echo "Cannot switch to Modules $swname version, command not found";\n return 1;\n fi\n}\nBASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then\n eval "module $@";\n else\n /usr/bin/scl "$@";\n fi\n}\nBASH_FUNC_ml%%=() {  module ml "$@"\n}', '_': '/usr/bin/env'}, 'shell': False}
+[4.226978] (-) TimerEvent: {}
+[4.327768] (-) TimerEvent: {}
+[4.428361] (-) TimerEvent: {}
+[4.528933] (-) TimerEvent: {}
+[4.629536] (-) TimerEvent: {}
+[4.730110] (-) TimerEvent: {}
+[4.830700] (-) TimerEvent: {}
+[4.931290] (-) TimerEvent: {}
+[5.031803] (-) TimerEvent: {}
+[5.132414] (-) TimerEvent: {}
+[5.233000] (-) TimerEvent: {}
+[5.247959] (py_ihm) StdoutLine: {'line': b'running egg_info\n'}
+[5.252539] (py_ihm) StdoutLine: {'line': b'writing ../../build/py_ihm/py_ihm.egg-info/PKG-INFO\n'}
+[5.256666] (py_ihm) StdoutLine: {'line': b'writing dependency_links to ../../build/py_ihm/py_ihm.egg-info/dependency_links.txt\n'}
+[5.260402] (py_ihm) StdoutLine: {'line': b'writing entry points to ../../build/py_ihm/py_ihm.egg-info/entry_points.txt\n'}
+[5.263473] (py_ihm) StdoutLine: {'line': b'writing requirements to ../../build/py_ihm/py_ihm.egg-info/requires.txt\n'}
+[5.265586] (py_ihm) StdoutLine: {'line': b'writing top-level names to ../../build/py_ihm/py_ihm.egg-info/top_level.txt\n'}
+[5.282280] (py_ihm) StdoutLine: {'line': b"reading manifest file '../../build/py_ihm/py_ihm.egg-info/SOURCES.txt'\n"}
+[5.288991] (py_ihm) StdoutLine: {'line': b"writing manifest file '../../build/py_ihm/py_ihm.egg-info/SOURCES.txt'\n"}
+[5.291173] (py_ihm) StdoutLine: {'line': b'running build\n'}
+[5.291608] (py_ihm) StdoutLine: {'line': b'running build_py\n'}
+[5.296726] (py_ihm) StdoutLine: {'line': b'running install\n'}
+[5.298025] (py_ihm) StdoutLine: {'line': b'running install_lib\n'}
+[5.308650] (py_ihm) StdoutLine: {'line': b'running install_data\n'}
+[5.314930] (py_ihm) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.323420] (py_ihm) StdoutLine: {'line': b"removing '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.6/site-packages/py_ihm-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[5.333177] (-) TimerEvent: {}
+[5.333765] (py_ihm) StdoutLine: {'line': b'Copying ../../build/py_ihm/py_ihm.egg-info to /home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/python3.6/site-packages/py_ihm-0.0.0-py3.6.egg-info\n'}
+[5.362364] (py_ihm) StdoutLine: {'line': b'running install_scripts\n'}
+[5.433303] (-) TimerEvent: {}
+[5.441203] (py_ihm) StdoutLine: {'line': b'Installing ihm_ros2 script to /home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/install/py_ihm/lib/py_ihm\n'}
+[5.446944] (py_ihm) StdoutLine: {'line': b"writing list of installed files to '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/build/py_ihm/install.log'\n"}
+[5.505683] (py_ihm) CommandEnded: {'returncode': 0}
+[5.533578] (-) TimerEvent: {}
+[5.634281] (-) TimerEvent: {}
+[5.734822] (-) TimerEvent: {}
+[5.835545] (-) TimerEvent: {}
+[5.936644] (py_ihm) JobEnded: {'identifier': 'py_ihm', 'rc': 0}
+[5.942032] (-) TimerEvent: {}
+[5.942372] (-) EventReactorShutdown: {}

@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.007755] (py_send_camera) JobQueued: {'identifier': 'py_send_camera', 'dependencies': OrderedDict()}
+[0.019488] (py_send_camera) JobStarted: {'identifier': 'py_send_camera'}
+[0.098212] (-) TimerEvent: {}
+[0.206793] (-) TimerEvent: {}
+[0.309977] (-) TimerEvent: {}
+[0.412866] (-) TimerEvent: {}
+[0.515717] (-) TimerEvent: {}
+[0.618193] (-) TimerEvent: {}
+[0.720609] (-) TimerEvent: {}
+[0.822572] (-) TimerEvent: {}
+[0.927062] (-) TimerEvent: {}
+[1.029474] (-) TimerEvent: {}
+[1.135780] (-) TimerEvent: {}
+[1.237004] (-) TimerEvent: {}
+[1.338811] (-) TimerEvent: {}
+[1.440642] (-) TimerEvent: {}
+[1.542228] (-) TimerEvent: {}
+[1.644410] (-) TimerEvent: {}
+[1.745768] (-) TimerEvent: {}
+[1.847398] (-) TimerEvent: {}
+[1.948740] (-) TimerEvent: {}
+[2.053750] (-) TimerEvent: {}
+[2.155537] (-) TimerEvent: {}
+[2.258253] (-) TimerEvent: {}
+[2.360061] (-) TimerEvent: {}
+[2.462657] (-) TimerEvent: {}
+[2.565485] (-) TimerEvent: {}
+[2.668713] (-) TimerEvent: {}
+[2.771978] (-) TimerEvent: {}
+[2.873334] (-) TimerEvent: {}
+[2.975583] (-) TimerEvent: {}
+[3.076857] (-) TimerEvent: {}
+[3.178501] (-) TimerEvent: {}
+[3.280140] (-) TimerEvent: {}
+[3.383199] (-) TimerEvent: {}
+[3.484942] (-) TimerEvent: {}
+[3.586993] (-) TimerEvent: {}
+[3.694106] (-) TimerEvent: {}
+[3.796188] (-) TimerEvent: {}
+[3.910424] (-) TimerEvent: {}
+[4.015130] (-) TimerEvent: {}
+[4.118932] (-) TimerEvent: {}
+[4.222145] (-) TimerEvent: {}
+[4.323908] (-) TimerEvent: {}
+[4.427063] (-) TimerEvent: {}
+[4.528194] (-) TimerEvent: {}
+[4.629835] (-) TimerEvent: {}
+[4.733014] (-) TimerEvent: {}
+[4.834736] (-) TimerEvent: {}
+[4.937553] (-) TimerEvent: {}
+[5.040992] (-) TimerEvent: {}
+[5.143571] (-) TimerEvent: {}
+[5.244997] (-) TimerEvent: {}
+[5.346306] (-) TimerEvent: {}
+[5.448264] (-) TimerEvent: {}
+[5.550282] (-) TimerEvent: {}
+[5.652007] (-) TimerEvent: {}
+[5.754458] (-) TimerEvent: {}
+[5.855892] (-) TimerEvent: {}
+[5.958511] (-) TimerEvent: {}
+[6.061715] (-) TimerEvent: {}
+[6.163654] (-) TimerEvent: {}
+[6.264967] (-) TimerEvent: {}
+[6.366763] (-) TimerEvent: {}
+[6.468162] (-) TimerEvent: {}
+[6.571279] (-) TimerEvent: {}
+[6.672916] (-) TimerEvent: {}
+[6.776998] (-) TimerEvent: {}
+[6.878659] (-) TimerEvent: {}
+[6.980556] (-) TimerEvent: {}
+[7.083049] (-) TimerEvent: {}
+[7.184558] (-) TimerEvent: {}
+[7.286121] (-) TimerEvent: {}
+[7.387669] (-) TimerEvent: {}
+[7.489838] (-) TimerEvent: {}
+[7.591482] (-) TimerEvent: {}
+[7.695055] (-) TimerEvent: {}
+[7.799400] (-) TimerEvent: {}
+[7.900601] (-) TimerEvent: {}
+[8.002140] (-) TimerEvent: {}
+[8.103500] (-) TimerEvent: {}
+[8.205228] (-) TimerEvent: {}
+[8.306662] (-) TimerEvent: {}
+[8.408890] (-) TimerEvent: {}
+[8.513490] (-) TimerEvent: {}
+[8.616519] (-) TimerEvent: {}
+[8.669481] (py_send_camera) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py_send_camera', 'build', '--build-base', '/home/rpi/Downloads/py_send_camera_ws/src/build/py_send_camera/build', 'install', '--record', '/home/rpi/Downloads/py_send_camera_ws/src/build/py_send_camera/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rpi/Downloads/py_send_camera_ws/src/py_send_camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'fr:en', 'USER': 'rpi', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rpi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1145', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d85aac525e3fc8ae531d5412673b4461', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rpi/Downloads/py_send_camera_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rpi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rpi-desktop:@/tmp/.ICE-unix/1145,unix/rpi-desktop:/tmp/.ICE-unix/1145', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/63bfb9b2_5d47_48a5_b435_2f1b6603f5e8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2EIJX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '4', 'AMENT_PREFIX_PATH': '/home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rpi/Downloads/py_send_camera_ws/src/build/py_send_camera', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d85aac525e3fc8ae531d5412673b4461', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rpi/Downloads/py_send_camera_ws/src/build/py_send_camera/prefix_override:/home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera/lib/python3.10/site-packages:/home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.716824] (-) TimerEvent: {}
+[8.818596] (-) TimerEvent: {}
+[8.921881] (-) TimerEvent: {}
+[9.023444] (-) TimerEvent: {}
+[9.125395] (-) TimerEvent: {}
+[9.229809] (-) TimerEvent: {}
+[9.331418] (-) TimerEvent: {}
+[9.433132] (-) TimerEvent: {}
+[9.534817] (-) TimerEvent: {}
+[9.638092] (-) TimerEvent: {}
+[9.739837] (-) TimerEvent: {}
+[9.842509] (-) TimerEvent: {}
+[9.944174] (-) TimerEvent: {}
+[10.045929] (-) TimerEvent: {}
+[10.148403] (-) TimerEvent: {}
+[10.252145] (-) TimerEvent: {}
+[10.356301] (-) TimerEvent: {}
+[10.459468] (-) TimerEvent: {}
+[10.562018] (-) TimerEvent: {}
+[10.663498] (-) TimerEvent: {}
+[10.765577] (-) TimerEvent: {}
+[10.869823] (-) TimerEvent: {}
+[10.971217] (-) TimerEvent: {}
+[11.072357] (-) TimerEvent: {}
+[11.173473] (-) TimerEvent: {}
+[11.274738] (-) TimerEvent: {}
+[11.377939] (-) TimerEvent: {}
+[11.479371] (-) TimerEvent: {}
+[11.582716] (-) TimerEvent: {}
+[11.684190] (-) TimerEvent: {}
+[11.788990] (-) TimerEvent: {}
+[11.890258] (-) TimerEvent: {}
+[11.993098] (-) TimerEvent: {}
+[12.095799] (-) TimerEvent: {}
+[12.197438] (-) TimerEvent: {}
+[12.299021] (-) TimerEvent: {}
+[12.363319] (py_send_camera) StdoutLine: {'line': b'running egg_info\n'}
+[12.373671] (py_send_camera) StdoutLine: {'line': b'writing ../build/py_send_camera/py_send_camera.egg-info/PKG-INFO\n'}
+[12.376082] (py_send_camera) StdoutLine: {'line': b'writing dependency_links to ../build/py_send_camera/py_send_camera.egg-info/dependency_links.txt\n'}
+[12.379184] (py_send_camera) StdoutLine: {'line': b'writing entry points to ../build/py_send_camera/py_send_camera.egg-info/entry_points.txt\n'}
+[12.383275] (py_send_camera) StdoutLine: {'line': b'writing requirements to ../build/py_send_camera/py_send_camera.egg-info/requires.txt\n'}
+[12.387682] (py_send_camera) StdoutLine: {'line': b'writing top-level names to ../build/py_send_camera/py_send_camera.egg-info/top_level.txt\n'}
+[12.399363] (-) TimerEvent: {}
+[12.404297] (py_send_camera) StdoutLine: {'line': b"reading manifest file '../build/py_send_camera/py_send_camera.egg-info/SOURCES.txt'\n"}
+[12.413754] (py_send_camera) StdoutLine: {'line': b"writing manifest file '../build/py_send_camera/py_send_camera.egg-info/SOURCES.txt'\n"}
+[12.416985] (py_send_camera) StdoutLine: {'line': b'running build\n'}
+[12.419403] (py_send_camera) StdoutLine: {'line': b'running build_py\n'}
+[12.420580] (py_send_camera) StdoutLine: {'line': b'copying py_send_camera/send_camera.py -> /home/rpi/Downloads/py_send_camera_ws/src/build/py_send_camera/build/lib/py_send_camera\n'}
+[12.422468] (py_send_camera) StdoutLine: {'line': b'running install\n'}
+[12.425942] (py_send_camera) StdoutLine: {'line': b'running install_lib\n'}
+[12.436443] (py_send_camera) StdoutLine: {'line': b'copying /home/rpi/Downloads/py_send_camera_ws/src/build/py_send_camera/build/lib/py_send_camera/send_camera.py -> /home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera/lib/python3.10/site-packages/py_send_camera\n'}
+[12.442783] (py_send_camera) StdoutLine: {'line': b'byte-compiling /home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera/lib/python3.10/site-packages/py_send_camera/send_camera.py to send_camera.cpython-310.pyc\n'}
+[12.456064] (py_send_camera) StdoutLine: {'line': b'running install_data\n'}
+[12.459466] (py_send_camera) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.476400] (py_send_camera) StdoutLine: {'line': b"removing '/home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera/lib/python3.10/site-packages/py_send_camera-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.481226] (py_send_camera) StdoutLine: {'line': b'Copying ../build/py_send_camera/py_send_camera.egg-info to /home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera/lib/python3.10/site-packages/py_send_camera-0.0.0-py3.10.egg-info\n'}
+[12.499807] (py_send_camera) StdoutLine: {'line': b'running install_scripts\n'}
+[12.502057] (-) TimerEvent: {}
+[12.605818] (-) TimerEvent: {}
+[12.709059] (py_send_camera) StdoutLine: {'line': b'Installing send_camera script to /home/rpi/Downloads/py_send_camera_ws/src/install/py_send_camera/lib/py_send_camera\n'}
+[12.710578] (-) TimerEvent: {}
+[12.714013] (py_send_camera) StdoutLine: {'line': b"writing list of installed files to '/home/rpi/Downloads/py_send_camera_ws/src/build/py_send_camera/install.log'\n"}
+[12.811478] (-) TimerEvent: {}
+[12.916518] (-) TimerEvent: {}
+[13.018509] (-) TimerEvent: {}
+[13.079252] (py_send_camera) CommandEnded: {'returncode': 0}
+[13.120655] (-) TimerEvent: {}
+[13.212186] (py_send_camera) JobEnded: {'identifier': 'py_send_camera', 'rc': 0}
+[13.223070] (-) TimerEvent: {}
+[13.225666] (-) EventReactorShutdown: {}

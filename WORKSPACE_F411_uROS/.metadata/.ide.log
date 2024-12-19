@@ -1,0 +1,27 @@
+2024-04-18 08:35:42,417 [INFO] Activator:176 - 
+
+
+2024-04-18 08:35:42,423 [INFO] Activator:177 - !SESSION log4j initialized
+2024-04-18 08:35:47,061 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-04-18 08:36:08,121 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2024-04-18 08:36:08,121 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2024-04-18 08:36:08,121 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024-04-19 09:48:55,359 [INFO] Activator:177 - 
+
+
+2024-04-19 09:48:55,362 [INFO] Activator:178 - !SESSION log4j initialized
+2024-04-19 09:48:55,612 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] avr. 19, 2024 9:48:55 AM java.util.prefs.FileSystemPreferences$1 run
+2024-04-19 09:48:55,613 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] INFOS: Created user preferences directory.
+2024-04-19 09:48:55,614 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2024-04-19 09:49:00,175 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2024-04-19 09:59:19,248 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2024-04-19 09:59:30,302 [INFO] Activator:177 - 
+
+
+2024-04-19 09:59:30,304 [INFO] Activator:178 - !SESSION log4j initialized
+2024-04-19 09:59:33,962 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2024-04-19 10:32:34,885 [INFO] Activator:177 - 
+
+
+2024-04-19 10:32:34,888 [INFO] Activator:178 - !SESSION log4j initialized
+2024-04-19 10:32:38,894 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com

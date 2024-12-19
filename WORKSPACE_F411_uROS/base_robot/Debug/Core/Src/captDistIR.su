@@ -1,0 +1,2 @@
+../Core/Src/captDistIR.c:17:7:captDistIR_Init	8	static
+../Core/Src/captDistIR.c:45:6:captDistIR_Get	16	static

@@ -1,0 +1,338 @@
+[3.701s] DEBUG:colcon:Command line arguments: ['/home/TP/tools/miniconda3/envs/E021_3_6/bin/colcon', 'build', '--packages-select', 'py_ihm']
+[3.701s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fef13635c88>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['py_ihm'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fef13635c88>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fef13629898>)
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.916s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/e2023/m3eljily/Bureau/robot_mobile/UI'
+[3.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.062s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.062s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.065s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.067s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'ignore'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'ignore_ament_install'
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extensions ['colcon_pkg']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'colcon_pkg'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extensions ['colcon_meta']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'colcon_meta'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extensions ['ros']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'ros'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extensions ['cmake', 'python']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'cmake'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'python'
+[4.077s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extensions ['python_setup_py']
+[4.078s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws) by extension 'python_setup_py'
+[4.079s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extensions ['ignore', 'ignore_ament_install']
+[4.080s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'ignore'
+[4.081s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'ignore_ament_install'
+[4.082s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extensions ['colcon_pkg']
+[4.083s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'colcon_pkg'
+[4.083s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extensions ['colcon_meta']
+[4.083s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'colcon_meta'
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extensions ['ros']
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'ros'
+[4.085s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extensions ['cmake', 'python']
+[4.086s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'cmake'
+[4.086s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'python'
+[4.087s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extensions ['python_setup_py']
+[4.088s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/assets) by extension 'python_setup_py'
+[4.089s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[4.089s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/build) by extension 'ignore'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/build) ignored
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/install) by extension 'ignore'
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/install) ignored
+[4.094s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[4.094s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/log) by extension 'ignore'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/log) ignored
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[4.097s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'ignore'
+[4.097s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'ignore_ament_install'
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extensions ['colcon_pkg']
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'colcon_pkg'
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extensions ['colcon_meta']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'colcon_meta'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extensions ['ros']
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'ros'
+[4.101s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extensions ['cmake', 'python']
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'cmake'
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'python'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extensions ['python_setup_py']
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src) by extension 'python_setup_py'
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extensions ['ignore', 'ignore_ament_install']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extension 'ignore'
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extension 'ignore_ament_install'
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extensions ['colcon_pkg']
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extension 'colcon_pkg'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extensions ['colcon_meta']
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extension 'colcon_meta'
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extensions ['ros']
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(pyqt_ihm_ros2_ws/src/py_ihm) by extension 'ros'
+[4.122s] DEBUG:colcon.colcon_core.package_identification:Package 'pyqt_ihm_ros2_ws/src/py_ihm' with type 'ros.ament_python' and name 'py_ihm'
+[4.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.443s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'cmake_args' from command line to 'None'
+[4.443s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'cmake_target' from command line to 'None'
+[4.443s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.444s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'cmake_clean_cache' from command line to 'False'
+[4.444s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'cmake_clean_first' from command line to 'False'
+[4.445s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'cmake_force_configure' from command line to 'False'
+[4.445s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'ament_cmake_args' from command line to 'None'
+[4.445s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'catkin_cmake_args' from command line to 'None'
+[4.446s] Level 5:colcon.colcon_core.verb:set package 'py_ihm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.446s] DEBUG:colcon.colcon_core.verb:Building package 'py_ihm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/e2023/m3eljily/Bureau/robot_mobile/UI/build/py_ihm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm', 'merge_install': False, 'path': '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm', 'symlink_install': False, 'test_result_base': None}
+[4.500s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.559s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm' with build type 'ament_python'
+[4.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_ihm', 'ament_prefix_path')
+[4.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/hook/ament_prefix_path.ps1'
+[4.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/hook/ament_prefix_path.dsv'
+[4.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/hook/ament_prefix_path.sh'
+[4.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.022s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm'
+[6.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm': DEBUGINFOD_URLS=https://debuginfod.centos.org/ LESSOPEN=${LESSOPEN}
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+} PYTHONPATH=/home/e2023/m3eljily/Bureau/robot_mobile/UI/build/py_ihm/prefix_override:/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/lib/python3.6/site-packages:${PYTHONPATH} SHLVL=3 _=/usr/bin/env /home/TP/tools/miniconda3/envs/E021_3_6/bin/python3.6 setup.py egg_info --egg-base ../../../build/py_ihm build --build-base /home/e2023/m3eljily/Bureau/robot_mobile/UI/build/py_ihm/build install --record /home/e2023/m3eljily/Bureau/robot_mobile/UI/build/py_ihm/install.log --single-version-externally-managed
+[8.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/e2023/m3eljily/Bureau/robot_mobile/UI/pyqt_ihm_ros2_ws/src/py_ihm' returned '0': DEBUGINFOD_URLS=https://debuginfod.centos.org/ LESSOPEN=${LESSOPEN}
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+} PYTHONPATH=/home/e2023/m3eljily/Bureau/robot_mobile/UI/build/py_ihm/prefix_override:/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/lib/python3.6/site-packages:${PYTHONPATH} SHLVL=3 _=/usr/bin/env /home/TP/tools/miniconda3/envs/E021_3_6/bin/python3.6 setup.py egg_info --egg-base ../../../build/py_ihm build --build-base /home/e2023/m3eljily/Bureau/robot_mobile/UI/build/py_ihm/build install --record /home/e2023/m3eljily/Bureau/robot_mobile/UI/build/py_ihm/install.log --single-version-externally-managed
+[9.017s] Level 1:colcon.colcon_core.environment:checking '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm' for CMake module files
+[9.022s] Level 1:colcon.colcon_core.environment:checking '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm' for CMake config files
+[9.034s] Level 1:colcon.colcon_core.environment:checking '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/lib'
+[9.035s] Level 1:colcon.colcon_core.environment:checking '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/bin'
+[9.036s] Level 1:colcon.colcon_core.environment:checking '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/lib/pkgconfig/py_ihm.pc'
+[9.037s] Level 1:colcon.colcon_core.environment:checking '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/lib/python3.6/site-packages'
+[9.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_ihm', 'pythonpath')
+[9.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/hook/pythonpath.ps1'
+[9.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/hook/pythonpath.dsv'
+[9.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/hook/pythonpath.sh'
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/bin'
+[9.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_ihm)
+[9.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/package.ps1'
+[9.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/package.dsv'
+[9.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/package.sh'
+[9.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/package.bash'
+[9.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/py_ihm/package.zsh'
+[9.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/py_ihm/share/colcon-core/packages/py_ihm)
+[9.185s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.187s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[9.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.251s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.252s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[9.285s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/local_setup.ps1'
+[9.346s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/_local_setup_util_ps1.py'
+[9.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/setup.ps1'
+[9.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/local_setup.sh'
+[9.417s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/_local_setup_util_sh.py'
+[9.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/setup.sh'
+[9.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/local_setup.bash'
+[9.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/setup.bash'
+[9.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/local_setup.zsh'
+[9.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/m3eljily/Bureau/robot_mobile/UI/install/setup.zsh'

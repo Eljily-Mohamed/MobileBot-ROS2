@@ -1,0 +1,5 @@
+  File "/home/rpi/Desktop/py_send_camera_ws/install/py_send_camera/lib/python3.10/site-packages/py_send_camera/send_camera.py", line 106
+    print(f"moments= {moments["m00"]}")
+                               ^^^
+SyntaxError: f-string: unmatched '['
+

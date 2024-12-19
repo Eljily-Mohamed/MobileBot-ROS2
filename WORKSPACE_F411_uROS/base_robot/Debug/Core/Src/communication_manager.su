@@ -1,0 +1,4 @@
+../Core/Src/communication_manager.c:9:6:process_command_data	24	static
+../Core/Src/communication_manager.c:28:5:process_vitess_data	24	static
+../Core/Src/communication_manager.c:41:6:get_vitess	16	static
+../Core/Src/communication_manager.c:48:6:get_xy	32	static
