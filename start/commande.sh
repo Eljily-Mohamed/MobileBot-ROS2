@@ -18,14 +18,7 @@ ssh rpi@192.168.0.4
 # Login RPI : rpi
 # Mot de Passe : robotrose021
 
-#Côté RPI, il est nécéssaire de lancer micro_ros_agent :
-cd ~/microros_ws
-git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
-rosdep install --from-paths src --ignore-src -y
-colcon build
-source install/local_setup.bash
-
-# LAUNCH  
+# #Côté RPI, il est nécéssaire de lancer micro_ros_agent :  
 cd ~/microros_ws
 . install/setup.bash
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -b 115200
@@ -35,8 +28,8 @@ cd ~/Desktop/py_send_camera_ws
 . install/setup.bash
 ros2 run py_send_camera send_camera
 
-#mot info
-# 9.8 cm == 98 mm 
+#motor info
+# D = 9.8 cm == 98 mm 
 
-vitese km/h = vitese tr/min * pi * D/1000 * 60
+#vitese km/h = vitese tr/min * pi * D/1000 * 60
 

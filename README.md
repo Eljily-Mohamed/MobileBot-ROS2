@@ -57,11 +57,12 @@ Ce projet vise à programmer un robot autonome et son interface de commande avec
 - Raspberry Pi avec support ROS2 et traitement d’images.
 - Webcam compatible avec Raspberry Pi.
 - Écran LCD pour STM32.
-- PC Host avec IHM installée.
+- PC Host.
 
 ### Instructions
 1. **Cloner le dépôt**  
    ```bash
-   git clone https://github.com/votre-nom-utilisateur/nom-du-repo.git
-   cd nom-du-repo
+   git clone https://github.com/Eljily-Mohamed/MobileBot-ROS2.git
 
+2. **Vidéos d'aide**
+Pour les étudiants de l'ENIB, des vidéos explicatives sont disponibles dans le dossier media sous le nom start_project.mp4. Ces vidéos couvrent l'installation, la configuration, et la mise en route du projet.
